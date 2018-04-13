@@ -1,5 +1,5 @@
-# Smart-City-Network
-A Cloud based Smart City Community Platform
+# Cloud Based Smart City Community Network </br></br></br>
 
 
 
+![Architecture Diagram](Design.png?raw=true "Architecture Diagram")
