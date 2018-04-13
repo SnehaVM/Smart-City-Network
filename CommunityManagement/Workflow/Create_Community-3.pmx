@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessMaker-Project version="3.0">
+  <metadata>
+    <meta key="vendor_version">3.2.1-community</meta>
+    <meta key="vendor_version_code">Michelangelo</meta>
+    <meta key="export_timestamp">1512547052</meta>
+    <meta key="export_datetime"><![CDATA[2017-12-06T02:57:32-05:00]]></meta>
+    <meta key="export_server_addr"><![CDATA[172.31.26.250:80]]></meta>
+    <meta key="export_server_os">Linux</meta>
+    <meta key="export_server_php_version">50632</meta>
+    <meta key="workspace">workflow</meta>
+    <meta key="name">Create Community</meta>
+    <meta key="uid">6177860225a114969622452016803288</meta>
+  </metadata>
+  <definition class="BPMN">
+    <table name="ACTIVITY">
+      <record>
+        <act_uid>6457430295a225a1f36d469003466417</act_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <pro_uid>5396649255a1149696d5a03036101023</pro_uid>
+        <act_name>Approval</act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>1865288095a225a1f372b41022994459</bou_uid>
+        <dia_uid>4035729845a1149696b2d42044415573</dia_uid>
+        <element_uid>6457430295a225a1f36d469003466417</element_uid>
+        <bou_element>6689035305a2672a577e979011285700</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>471</bou_x>
+        <bou_y>123</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <act_uid>4906226515a225c315be814023768719</act_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <pro_uid>5396649255a1149696d5a03036101023</pro_uid>
+        <act_name>Response</act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>9079279085a225c315c3747091871362</bou_uid>
+        <dia_uid>4035729845a1149696b2d42044415573</dia_uid>
+        <element_uid>4906226515a225c315be814023768719</element_uid>
+        <bou_element>6689035305a2672a577e979011285700</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>476</bou_x>
+        <bou_y>363</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <act_uid>4450023645a114993ebedd4071435140</act_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <pro_uid>5396649255a1149696d5a03036101023</pro_uid>
+        <act_name>Create Request</act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>9257563285a114993ec73e6065401610</bou_uid>
+        <dia_uid>4035729845a1149696b2d42044415573</dia_uid>
+        <element_uid>4450023645a114993ebedd4071435140</element_uid>
+        <bou_element>6689035305a2672a577e979011285700</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>264</bou_x>
+        <bou_y>123</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="ARTIFACT"/>
+    <table name="BOUND">
+      <record>
+        <bou_uid>1865288095a225a1f372b41022994459</bou_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <dia_uid>4035729845a1149696b2d42044415573</dia_uid>
+        <element_uid>6457430295a225a1f36d469003466417</element_uid>
+        <bou_element>6689035305a2672a577e979011285700</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>471</bou_x>
+        <bou_y>123</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>4138058075a11499404f596099995878</bou_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <dia_uid>4035729845a1149696b2d42044415573</dia_uid>
+        <element_uid>3155052855a114994049585035363144</element_uid>
+        <bou_element>6689035305a2672a577e979011285700</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>100</bou_x>
+        <bou_y>144</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>9079279085a225c315c3747091871362</bou_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <dia_uid>4035729845a1149696b2d42044415573</dia_uid>
+        <element_uid>4906226515a225c315be814023768719</element_uid>
+        <bou_element>6689035305a2672a577e979011285700</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>476</bou_x>
+        <bou_y>363</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>9257563285a114993ec73e6065401610</bou_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <dia_uid>4035729845a1149696b2d42044415573</dia_uid>
+        <element_uid>4450023645a114993ebedd4071435140</element_uid>
+        <bou_element>6689035305a2672a577e979011285700</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>264</bou_x>
+        <bou_y>123</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>9699637015a225bf2dd8363093293607</bou_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <dia_uid>4035729845a1149696b2d42044415573</dia_uid>
+        <element_uid>7543022765a225bf2dd3624077389547</element_uid>
+        <bou_element>6689035305a2672a577e979011285700</bou_element>
+        <bou_element_type>bpmnGateway</bou_element_type>
+        <bou_x>528</bou_x>
+        <bou_y>258</bou_y>
+        <bou_width>41</bou_width>
+        <bou_height>41</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>9948402015a225b374d4c61016413566</bou_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <dia_uid>4035729845a1149696b2d42044415573</dia_uid>
+        <element_uid>3949858285a225b374cfc03061881156</element_uid>
+        <bou_element>6689035305a2672a577e979011285700</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>767</bou_x>
+        <bou_y>459</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="DATA"/>
+    <table name="DIAGRAM">
+      <record>
+        <dia_uid>4035729845a1149696b2d42044415573</dia_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <dia_name>Create Community</dia_name>
+        <dia_is_closable>0</dia_is_closable>
+      </record>
+    </table>
+    <table name="DOCUMENTATION"/>
+    <table name="EVENT">
+      <record>
+        <evn_uid>3155052855a114994049585035363144</evn_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <pro_uid>5396649255a1149696d5a03036101023</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>START</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message>LEAD</evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>CATCH</evn_behavior>
+        <bou_uid>4138058075a11499404f596099995878</bou_uid>
+        <dia_uid>4035729845a1149696b2d42044415573</dia_uid>
+        <element_uid>3155052855a114994049585035363144</element_uid>
+        <bou_element>6689035305a2672a577e979011285700</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>100</bou_x>
+        <bou_y>144</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <evn_uid>3949858285a225b374cfc03061881156</evn_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <pro_uid>5396649255a1149696d5a03036101023</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>END</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message></evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>THROW</evn_behavior>
+        <bou_uid>9948402015a225b374d4c61016413566</bou_uid>
+        <dia_uid>4035729845a1149696b2d42044415573</dia_uid>
+        <element_uid>3949858285a225b374cfc03061881156</element_uid>
+        <bou_element>6689035305a2672a577e979011285700</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>767</bou_x>
+        <bou_y>459</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="EXTENSION"/>
+    <table name="FLOW">
+      <record>
+        <flo_uid>1372423285a225bf2e15a53096241503</flo_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <dia_uid>4035729845a1149696b2d42044415573</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>6457430295a225a1f36d469003466417</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>7543022765a225bf2dd3624077389547</flo_element_dest>
+        <flo_element_dest_type>bpmnGateway</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>547</flo_x1>
+        <flo_y1>198</flo_y1>
+        <flo_x2>549</flo_x2>
+        <flo_y2>258</flo_y2>
+        <flo_state><![CDATA[[{"x":547,"y":198},{"x":547,"y":228},{"x":549,"y":228},{"x":549,"y":258}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>3458364245a225abf39f8e6070872885</flo_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <dia_uid>4035729845a1149696b2d42044415573</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>4450023645a114993ebedd4071435140</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>6457430295a225a1f36d469003466417</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>415</flo_x1>
+        <flo_y1>161</flo_y1>
+        <flo_x2>471</flo_x2>
+        <flo_y2>161</flo_y2>
+        <flo_state><![CDATA[[{"x":415,"y":161},{"x":471,"y":161}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>6716816285a1dd925a86048026975533</flo_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <dia_uid>4035729845a1149696b2d42044415573</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>3155052855a114994049585035363144</flo_element_origin>
+        <flo_element_origin_type>bpmnEvent</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>4450023645a114993ebedd4071435140</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>133</flo_x1>
+        <flo_y1>161</flo_y1>
+        <flo_x2>264</flo_x2>
+        <flo_y2>161</flo_y2>
+        <flo_state><![CDATA[[{"x":133,"y":161},{"x":264,"y":161}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>6923291285a225c59601a31045430219</flo_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <dia_uid>4035729845a1149696b2d42044415573</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>7543022765a225bf2dd3624077389547</flo_element_origin>
+        <flo_element_origin_type>bpmnGateway</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>4906226515a225c315be814023768719</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition><![CDATA[@@Decision == '1']]></flo_condition>
+        <flo_x1>549</flo_x1>
+        <flo_y1>299</flo_y1>
+        <flo_x2>552</flo_x2>
+        <flo_y2>363</flo_y2>
+        <flo_state><![CDATA[[{"x":549,"y":299},{"x":549,"y":331},{"x":552,"y":331},{"x":552,"y":363}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>8640697605a225c31656786045770043</flo_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <dia_uid>4035729845a1149696b2d42044415573</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>4906226515a225c315be814023768719</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>3949858285a225b374cfc03061881156</flo_element_dest>
+        <flo_element_dest_type>bpmnEvent</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>552</flo_x1>
+        <flo_y1>438</flo_y1>
+        <flo_x2>784</flo_x2>
+        <flo_y2>459</flo_y2>
+        <flo_state><![CDATA[[{"x":552,"y":438},{"x":552,"y":448},{"x":784,"y":448},{"x":784,"y":459}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>7889551485a225c59602898066171376</flo_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <dia_uid>4035729845a1149696b2d42044415573</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>7543022765a225bf2dd3624077389547</flo_element_origin>
+        <flo_element_origin_type>bpmnGateway</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>3949858285a225b374cfc03061881156</flo_element_dest>
+        <flo_element_dest_type>bpmnEvent</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition><![CDATA[@@Decision == '0']]></flo_condition>
+        <flo_x1>569</flo_x1>
+        <flo_y1>279</flo_y1>
+        <flo_x2>784</flo_x2>
+        <flo_y2>459</flo_y2>
+        <flo_state><![CDATA[[{"x":569,"y":279},{"x":784,"y":279},{"x":784,"y":459}]]]></flo_state>
+        <flo_position>2</flo_position>
+      </record>
+    </table>
+    <table name="GATEWAY">
+      <record>
+        <gat_uid>7543022765a225bf2dd3624077389547</gat_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <pro_uid>5396649255a1149696d5a03036101023</pro_uid>
+        <gat_name></gat_name>
+        <gat_type>EXCLUSIVE</gat_type>
+        <gat_direction>DIVERGING</gat_direction>
+        <gat_instantiate>0</gat_instantiate>
+        <gat_event_gateway_type>NONE</gat_event_gateway_type>
+        <gat_activation_count>0</gat_activation_count>
+        <gat_waiting_for_start>1</gat_waiting_for_start>
+        <gat_default_flow>0</gat_default_flow>
+        <bou_uid>9699637015a225bf2dd8363093293607</bou_uid>
+        <dia_uid>4035729845a1149696b2d42044415573</dia_uid>
+        <element_uid>7543022765a225bf2dd3624077389547</element_uid>
+        <bou_element>6689035305a2672a577e979011285700</bou_element>
+        <bou_element_type>bpmnGateway</bou_element_type>
+        <bou_x>528</bou_x>
+        <bou_y>258</bou_y>
+        <bou_width>41</bou_width>
+        <bou_height>41</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="LANE"/>
+    <table name="LANESET"/>
+    <table name="PARTICIPANT"/>
+    <table name="PROCESS">
+      <record>
+        <pro_uid>5396649255a1149696d5a03036101023</pro_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <dia_uid>4035729845a1149696b2d42044415573</dia_uid>
+        <pro_name>Create Community</pro_name>
+        <pro_type>NONE</pro_type>
+        <pro_is_executable>0</pro_is_executable>
+        <pro_is_closed>0</pro_is_closed>
+        <pro_is_subprocess>0</pro_is_subprocess>
+      </record>
+    </table>
+    <table name="PROJECT">
+      <record>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <prj_name>Create Community</prj_name>
+        <prj_description></prj_description>
+        <prj_target_namespace></prj_target_namespace>
+        <prj_expresion_language></prj_expresion_language>
+        <prj_type_language></prj_type_language>
+        <prj_exporter></prj_exporter>
+        <prj_exporter_version></prj_exporter_version>
+        <prj_create_date><![CDATA[2017-11-19 04:05:45]]></prj_create_date>
+        <prj_update_date><![CDATA[2017-12-05 06:25:17]]></prj_update_date>
+        <prj_author>00000000000000000000000000000001</prj_author>
+        <prj_author_version></prj_author_version>
+        <prj_original_source></prj_original_source>
+      </record>
+    </table>
+  </definition>
+  <definition class="workflow">
+    <table name="process">
+      <record>
+        <pro_uid>6177860225a114969622452016803288</pro_uid>
+        <pro_title>Create Community</pro_title>
+        <pro_description></pro_description>
+        <pro_parent>6177860225a114969622452016803288</pro_parent>
+        <pro_time>1</pro_time>
+        <pro_timeunit>DAYS</pro_timeunit>
+        <pro_status>ACTIVE</pro_status>
+        <pro_type_day></pro_type_day>
+        <pro_type>NORMAL</pro_type>
+        <pro_assignment>FALSE</pro_assignment>
+        <pro_show_map>0</pro_show_map>
+        <pro_show_message>0</pro_show_message>
+        <pro_subprocess>0</pro_subprocess>
+        <pro_tri_create></pro_tri_create>
+        <pro_tri_open></pro_tri_open>
+        <pro_tri_deleted></pro_tri_deleted>
+        <pro_tri_canceled></pro_tri_canceled>
+        <pro_tri_paused></pro_tri_paused>
+        <pro_tri_reassigned></pro_tri_reassigned>
+        <pro_tri_unpaused></pro_tri_unpaused>
+        <pro_type_process>PUBLIC</pro_type_process>
+        <pro_show_delegate>0</pro_show_delegate>
+        <pro_show_dynaform>0</pro_show_dynaform>
+        <pro_category></pro_category>
+        <pro_sub_category></pro_sub_category>
+        <pro_industry>0</pro_industry>
+        <pro_update_date><![CDATA[2017-12-05 06:25:17]]></pro_update_date>
+        <pro_create_date><![CDATA[2017-11-28 16:46:13]]></pro_create_date>
+        <pro_create_user>00000000000000000000000000000001</pro_create_user>
+        <pro_height>5000</pro_height>
+        <pro_width>10000</pro_width>
+        <pro_title_x>0</pro_title_x>
+        <pro_title_y>0</pro_title_y>
+        <pro_debug>0</pro_debug>
+        <pro_dynaforms><![CDATA[a:1:{s:7:"PROCESS";s:0:"";}]]></pro_dynaforms>
+        <pro_derivation_screen_tpl></pro_derivation_screen_tpl>
+        <pro_cost>0</pro_cost>
+        <pro_unit_cost><![CDATA[$]]></pro_unit_cost>
+        <pro_itee>1</pro_itee>
+        <pro_action_done><![CDATA[a:1:{i:0;s:41:"GATEWAYTOGATEWAY_DELETE_CORRUPTED_RECORDS";}]]></pro_action_done>
+        <pro_category_label>No Category</pro_category_label>
+        <pro_bpmn>1</pro_bpmn>
+      </record>
+    </table>
+    <table name="tasks">
+      <record>
+        <pro_uid>6177860225a114969622452016803288</pro_uid>
+        <tas_uid>6457430295a225a1f36d469003466417</tas_uid>
+        <tas_title>Approval</tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>00000000000000000000000000000001</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>FALSE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>471</tas_posx>
+        <tas_posy>123</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+      <record>
+        <pro_uid>6177860225a114969622452016803288</pro_uid>
+        <tas_uid>4450023645a114993ebedd4071435140</tas_uid>
+        <tas_title>Create Request</tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message><![CDATA[New case for @#USR_USERNAME]]></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message><![CDATA[Dear,
+
+You have been assigned to work on this task.
+
+http://example.com/sys@#SYS_SYS/@#SYS_LANG/@#SYS_SKIN/cases/open?APP_UID=@#APPLICATION&DEL_INDEX=@#INDEX&action=draft
+
+Thanks,
+Poojitha]]></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day>1</tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>4774530225a21cdd301dd72070664858</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>TRUE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>TRUE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>264</tas_posx>
+        <tas_posy>123</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>TRUE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>Email.html</tas_receive_message_template>
+        <tas_receive_subject_message><![CDATA[New case for @#USR_USERNAME]]></tas_receive_subject_message>
+        <tas_receive_message><![CDATA[Dear,
+
+You have been assigned to work on this task2.
+
+http://example.com/sys@#SYS_SYS/@#SYS_LANG/@#SYS_SKIN/cases/open?APP_UID=@#APPLICATION&DEL_INDEX=@#INDEX&action=draft
+
+Thanks,
+Poojitha]]></tas_receive_message>
+      </record>
+      <record>
+        <pro_uid>6177860225a114969622452016803288</pro_uid>
+        <tas_uid>4906226515a225c315be814023768719</tas_uid>
+        <tas_title>Response</tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>00000000000000000000000000000001</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>FALSE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>476</tas_posx>
+        <tas_posy>363</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+    </table>
+    <table name="routes">
+      <record>
+        <rou_uid>3304176925a26821dd0e7c5061169946</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>6177860225a114969622452016803288</pro_uid>
+        <tas_uid>4450023645a114993ebedd4071435140</tas_uid>
+        <rou_next_task>6457430295a225a1f36d469003466417</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>SEQUENTIAL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>3700271675a26821dd010d3019119678</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>6177860225a114969622452016803288</pro_uid>
+        <tas_uid>4906226515a225c315be814023768719</tas_uid>
+        <rou_next_task>-1</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>SEQUENTIAL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>3952110205a26821dcdff13063602629</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>6177860225a114969622452016803288</pro_uid>
+        <tas_uid>6457430295a225a1f36d469003466417</tas_uid>
+        <rou_next_task>4906226515a225c315be814023768719</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition><![CDATA[@@Decision == '1']]></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>6933887965a26821dcf0301045588204</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>6177860225a114969622452016803288</pro_uid>
+        <tas_uid>6457430295a225a1f36d469003466417</tas_uid>
+        <rou_next_task>-1</rou_next_task>
+        <rou_case>2</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition><![CDATA[@@Decision == '0']]></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+    </table>
+    <table name="lanes"/>
+    <table name="gateways"/>
+    <table name="inputs"/>
+    <table name="outputs"/>
+    <table name="dynaforms">
+      <record>
+        <dyn_uid>4853111765a114d2948bd96048793170</dyn_uid>
+        <dyn_title>Community Approval</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>6177860225a114969622452016803288</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[6177860225a114969622452016803288/4853111765a114d2948bd96048793170]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"Community Approval","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"4853111765a114d2948bd96048793170","name":"Community Approval","description":"","mode":"edit","script":{"type":"js","code":"$(\"#textFlag\").hide();\n\n$(\"#4853111765a114d2948bd96048793170\").css(\"background-color\", \"#c6e2ff\");\n\n$(\"#submit1\").find(\"button\").click(function(){\n  \t$(\"#textFlag\").getControl().css(\"background-color\", \"#c6e2ff\");\n    $(\"#textFlag\").getControl().css(\"border\", \"0px\");\n  \t$(\"#textFlag\").getControl().css(\"color\", \"green\");\n\t$(\"#textFlag\").show ();\n});"},"language":"en","externalLibs":"","printable":false,"items":[[{"type":"title","id":"title0000000001","label":"Department Request Approval Form","colSpan":12}],[{"type":"text","variable":"Name","var_uid":"7344143885a114e4c871f75016928106","dataType":"object","protectedValue":false,"id":"Name","name":"Name","label":"Requestor","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Name","colSpan":6},{"type":"datetime","variable":"Date","var_uid":"5215008725a114e62ac31c2009286016","dataType":"datetime","protectedValue":false,"id":"Date","name":"Date","label":"Date","placeholder":"","hint":"","required":false,"mode":"parent","format":"YYYY-MM-DD","dayViewHeaderFormat":"MMMM YYYY","extraFormats":false,"stepping":1,"minDate":"","maxDate":"","useCurrent":"false","collapse":true,"locale":"","defaultDate":"","disabledDates":false,"enabledDates":false,"icons":{"time":"glyphicon glyphicon-time","date":"glyphicon glyphicon-calendar","up":"glyphicon glyphicon-chevron-up","down":"glyphicon glyphicon-chevron-down","previous":"glyphicon glyphicon-chevron-left","next":"glyphicon glyphicon-chevron-right","today":"glyphicon glyphicon-screenshot","clear":"glyphicon glyphicon-trash"},"useStrict":false,"sideBySide":false,"daysOfWeekDisabled":false,"calendarWeeks":false,"viewMode":"days","toolbarPlacement":"default","showTodayButton":false,"showClear":"false","widgetPositioning":{"horizontal":"auto","vertical":"auto"},"widgetParent":null,"keepOpen":false,"var_name":"Date","colSpan":6}],[{"type":"text","variable":"DeptName","var_uid":"7623634375a114e7fc5d829020915246","dataType":"string","protectedValue":false,"id":"DeptName","name":"DeptName","label":"Department Name","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"DeptName","colSpan":6},{"type":"text","variable":"EmailId","var_uid":"1357220495a114e74806385053914554","dataType":"string","protectedValue":false,"id":"EmailId","name":"EmailId","label":"Email Id","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"EmailId","colSpan":6}],[{"type":"radio","variable":"Decision","var_uid":"3132543555a114ebd8885c9037874320","dataType":"boolean","protectedValue":false,"id":"Decision","name":"Decision","label":"Approved","defaultValue":"","hint":"","required":false,"mode":"edit","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","options":[{"value":"1","label":"Yes"},{"value":"0","label":"No"}],"var_name":"Decision","colSpan":12}],[{"type":"submit","id":"submit1","name":"submit1","label":"Submit","colSpan":12}],[{"type":"text","variable":"textFlag","var_uid":"7650801595a223666bea8a5069100389","dataType":"string","protectedValue":false,"id":"textFlag","name":"textFlag","label":"","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"textFlag","colSpan":12}]],"variables":[{"var_uid":"7344143885a114e4c871f75016928106","prj_uid":"6177860225a114969622452016803288","var_name":"Name","var_field_type":"object","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":""},{"var_uid":"5215008725a114e62ac31c2009286016","prj_uid":"6177860225a114969622452016803288","var_name":"Date","var_field_type":"datetime","var_field_size":10,"var_label":"datetime","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"7623634375a114e7fc5d829020915246","prj_uid":"6177860225a114969622452016803288","var_name":"DeptName","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"1357220495a114e74806385053914554","prj_uid":"6177860225a114969622452016803288","var_name":"EmailId","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"3132543555a114ebd8885c9037874320","prj_uid":"6177860225a114969622452016803288","var_name":"Decision","var_field_type":"boolean","var_field_size":10,"var_label":"boolean","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[{\"value\":\"1\",\"label\":\"Yes\"},{\"value\":\"0\",\"label\":\"No\"}]","inp_doc_uid":""},{"var_uid":"7650801595a223666bea8a5069100389","prj_uid":"6177860225a114969622452016803288","var_name":"textFlag","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2017-12-05 06:42:17]]></dyn_update_date>
+      </record>
+      <record>
+        <dyn_uid>5167864965a224c70a75d52047056514</dyn_uid>
+        <dyn_title>Request Status</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>6177860225a114969622452016803288</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[6177860225a114969622452016803288/5167864965a224c70a75d52047056514]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"Request Status","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"5167864965a224c70a75d52047056514","name":"Request Status","description":"","mode":"edit","script":{"type":"js","code":"$(\"#5167864965a224c70a75d52047056514\").css(\"background-color\", \"#c6e2ff\");\n\t$(\"#txtstatus\").getControl().css(\"background-color\", \"#c6e2ff\");\n    $(\"#txtstatus\").getControl().css(\"border\", \"0px\");\n  \t$(\"#txtstatus\").getControl().css(\"color\", \"green\");"},"language":"en","externalLibs":"","printable":false,"items":[[{"type":"title","id":"title0000000001","label":"Request Status ","colSpan":12}],[{"type":"text","variable":"Name","var_uid":"7344143885a114e4c871f75016928106","dataType":"object","protectedValue":false,"id":"Name","name":"Name","label":"Requestor","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":"100","formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Name","colSpan":6},{"type":"text","variable":"DeptName","var_uid":"7623634375a114e7fc5d829020915246","dataType":"string","protectedValue":false,"id":"DeptName","name":"DeptName","label":"Department","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":"100","formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"DeptName","colSpan":6}],[{"type":"text","variable":"txtstatus","var_uid":"3983101885a224d63ebd4d9096498522","dataType":"string","protectedValue":false,"id":"txtstatus","name":"txtstatus","label":"Status","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"txtstatus","colSpan":12}],[{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"Configure Instance","colSpan":12}]],"variables":[{"var_uid":"7344143885a114e4c871f75016928106","prj_uid":"6177860225a114969622452016803288","var_name":"Name","var_field_type":"object","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":""},{"var_uid":"7623634375a114e7fc5d829020915246","prj_uid":"6177860225a114969622452016803288","var_name":"DeptName","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"3983101885a224d63ebd4d9096498522","prj_uid":"6177860225a114969622452016803288","var_name":"txtstatus","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2017-12-05 06:44:50]]></dyn_update_date>
+      </record>
+      <record>
+        <dyn_uid>5660518785a114b364a6277034068299</dyn_uid>
+        <dyn_title>Create Community Request</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>6177860225a114969622452016803288</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[6177860225a114969622452016803288/5660518785a114b364a6277034068299]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"Create Community Request","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"5660518785a114b364a6277034068299","name":"Create Community Request","description":"","mode":"edit","script":{"type":"js","code":"\t\n$(\"#5660518785a114b364a6277034068299\").css(\"background-color\", \"#c6e2ff\")"},"language":"en","externalLibs":"","printable":false,"items":[[{"type":"title","id":"title0000000001","label":"Community Request Form","colSpan":12}],[{"type":"text","variable":"Name","var_uid":"7344143885a114e4c871f75016928106","dataType":"object","protectedValue":false,"id":"Name","name":"Name","label":"Requestor","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Name","colSpan":6},{"type":"datetime","variable":"Date","var_uid":"5215008725a114e62ac31c2009286016","dataType":"datetime","protectedValue":false,"id":"Date","name":"Date","label":"Date","placeholder":"","hint":"","required":false,"mode":"parent","format":"YYYY-MM-DD","dayViewHeaderFormat":"MMMM YYYY","extraFormats":false,"stepping":1,"minDate":"","maxDate":"","useCurrent":"false","collapse":true,"locale":"","defaultDate":"","disabledDates":false,"enabledDates":false,"icons":{"time":"glyphicon glyphicon-time","date":"glyphicon glyphicon-calendar","up":"glyphicon glyphicon-chevron-up","down":"glyphicon glyphicon-chevron-down","previous":"glyphicon glyphicon-chevron-left","next":"glyphicon glyphicon-chevron-right","today":"glyphicon glyphicon-screenshot","clear":"glyphicon glyphicon-trash"},"useStrict":false,"sideBySide":false,"daysOfWeekDisabled":false,"calendarWeeks":false,"viewMode":"days","toolbarPlacement":"default","showTodayButton":false,"showClear":"false","widgetPositioning":{"horizontal":"auto","vertical":"auto"},"widgetParent":null,"keepOpen":false,"var_name":"Date","colSpan":6}],[{"type":"text","variable":"DeptName","var_uid":"7623634375a114e7fc5d829020915246","dataType":"string","protectedValue":false,"id":"DeptName","name":"DeptName","label":"Department Name","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"DeptName","colSpan":6},{"type":"text","variable":"EmailId","var_uid":"1357220495a114e74806385053914554","dataType":"string","protectedValue":false,"id":"EmailId","name":"EmailId","label":"Email Id","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"EmailId","colSpan":6}],[{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"Submit","colSpan":12}]],"variables":[{"var_uid":"7344143885a114e4c871f75016928106","prj_uid":"6177860225a114969622452016803288","var_name":"Name","var_field_type":"object","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":""},{"var_uid":"5215008725a114e62ac31c2009286016","prj_uid":"6177860225a114969622452016803288","var_name":"Date","var_field_type":"datetime","var_field_size":10,"var_label":"datetime","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"7623634375a114e7fc5d829020915246","prj_uid":"6177860225a114969622452016803288","var_name":"DeptName","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"1357220495a114e74806385053914554","prj_uid":"6177860225a114969622452016803288","var_name":"EmailId","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2017-12-05 07:24:16]]></dyn_update_date>
+      </record>
+    </table>
+    <table name="steps">
+      <record>
+        <step_uid>5539870005a225b58273337022502213</step_uid>
+        <pro_uid>6177860225a114969622452016803288</pro_uid>
+        <tas_uid>6457430295a225a1f36d469003466417</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>4853111765a114d2948bd96048793170</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+      <record>
+        <step_uid>7922483125a225c89e830a6002528772</step_uid>
+        <pro_uid>6177860225a114969622452016803288</pro_uid>
+        <tas_uid>4906226515a225c315be814023768719</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>5167864965a224c70a75d52047056514</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+      <record>
+        <step_uid>8532780175a115020de92c7085120867</step_uid>
+        <pro_uid>6177860225a114969622452016803288</pro_uid>
+        <tas_uid>4450023645a114993ebedd4071435140</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>5660518785a114b364a6277034068299</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+    </table>
+    <table name="triggers">
+      <record>
+        <tri_uid>3662127415a2474e80297a6074059874</tri_uid>
+        <tri_title>NotifyUser</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>6177860225a114969622452016803288</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[
+$serverConfig = array(
+"MESS_ENGINE"=>"PHPMAILER",
+"MESS_SERVER"=>"smtp.gmail.com", 
+"MESS_PORT"=>587,		
+"MESS_ACCOUNT"=>"smartcityadmn281@gmail.com",
+"MESS_FROM_MAIL"=>"smartcityadmn281@gmail.com", "MESS_PASSWORD"=>"smartcity123",
+"SMTPSecure"=>"tls", 
+"MESS_RAUTH" =>1);
+
+if(@@Decision == '1'){
+	@@statusFlag = "approved";
+	PMFSendMessage(@@APPLICATION,'smartcityadmn281@gmail.com', @@EmailId, '', '', 'Community Management Request Status', 'NotifyRequester.html', array(), array(), true, 0, $serverConfig);
+
+}
+else
+{
+	@@statusFlag = "disapproved";
+	PMFSendMessage(@@APPLICATION,'smartcityadmn281@gmail.com', @@EmailId, '', '', 'Community Management Request Status', 'Notify2.html', array(), array(), true, 0, $serverConfig);
+
+}
+
+
+]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>3667205585a128ea3942775025620887</tri_uid>
+        <tri_title>ExistingRequestCheck</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>6177860225a114969622452016803288</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[//assign system variables to PHP variables so can be inserted in strings
+ $user = @@USER_LOGGED; 
+ $process = @@PROCESS;
+ //Query to find any uncompleted steps assigned to logged-in user
+ $query = "SELECT * FROM APP_DELEGATION WHERE PRO_UID='$process' AND 
+   USR_UID='$user' AND DEL_THREAD_STATUS='OPEN'";
+ $res = executeQuery($query);
+ //if any open tasks are are found, assigned to user: 
+ if (is_array($res) and count($res) >= 1)
+ {
+    $c = new Cases();
+    $c->removeCase(@@APPLICATION); //delete the existing case
+    //Look up info on the existing case:
+    $caseId = $res[1]['APP_UID'];
+    $resExisting = executeQuery("SELECT * FROM APPLICATION WHERE APP_UID='$caseId'");
+    $caseNo = $resExisting[1]['APP_NUMBER'];
+    $caseId = $resExisting[1]['APP_UID'];
+    $caseIdx = $caseId = $resExisting[1]['APP_INDEX']; 
+    //Finally display message to user to first complete other case and redirect to the existing case 
+   $g = new G();
+   $g->SendMessageText("Case Aborted. Please complete or cancel this Case #$caseNo before starting a new case", 'WARNING');
+    G::header("Location: cases_Open?APP_UID=$caseId&DEL_INDEX=$caseIdx")
+    die(); //abort trigger to prevent any errors
+ }]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>4255713825a2054918e83a2077043083</tri_uid>
+        <tri_title>configureInstance</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>6177860225a114969622452016803288</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[//@@DNS = "ec2-54-218-250-122.us-west-2.compute.amazonaws.com";
+$curl = curl_init();
+$urlval = "http://";
+$urlval .= @@DNS.'/posttest.php';
+$data = array("url"=>@@DNS);	
+//@@DeptName = $urlval;
+
+ //curl_setopt($curl, CURLOPT_URL,"http://ec2-34-216-132-222.us-west-2.compute.amazonaws.com/posttest.php");
+ curl_setopt($curl, CURLOPT_URL,$urlval);
+ curl_setopt($curl, CURLOPT_POST, 1);
+ curl_setopt($curl, CURLOPT_POSTFIELDS, "url_=".@@DNS);
+//curl_setopt($curl, CURLOPT_POSTFIELDS, $data);
+
+ curl_exec ($curl);
+ curl_close ($curl);]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>4724202395a2110f4228e95050389108</tri_uid>
+        <tri_title>test</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>6177860225a114969622452016803288</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[$connection = ssh2_connect('shell.example.com', 22);]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>7724308575a1e01347c3669028480567</tri_uid>
+        <tri_title>createInstance</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>6177860225a114969622452016803288</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[exec("/usr/bin/node /opt/processmaker/scripts/createInstance.js", $output);
+$returnval = current($output);
+@@DNS = $returnval;
+$msg = "Department created successfully! Url: http://";
+$msg .= $returnval.'/smartcity';
+@@txtstatus = $msg;
+
+
+
+
+
+ 
+]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>9094693845a21d68a94bf28028897727</tri_uid>
+        <tri_title>ViewInstances</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>6177860225a114969622452016803288</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[exec("/usr/bin/node /opt/processmaker/scripts/describekey.js", $output);
+for ($i = 0; $i < count($output); $i++) {
+echo $output[$i];
+echo "\n";
+}
+@@textFlag = current($output);]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+    </table>
+    <table name="taskusers"/>
+    <table name="groupwfs"/>
+    <table name="steptriggers">
+      <record>
+        <step_uid>5539870005a225b58273337022502213</step_uid>
+        <tas_uid>6457430295a225a1f36d469003466417</tas_uid>
+        <tri_uid>3662127415a2474e80297a6074059874</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition><![CDATA[@@Decision == '0']]></st_condition>
+        <st_position>2</st_position>
+      </record>
+      <record>
+        <step_uid>5539870005a225b58273337022502213</step_uid>
+        <tas_uid>6457430295a225a1f36d469003466417</tas_uid>
+        <tri_uid>7724308575a1e01347c3669028480567</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition><![CDATA[@@Decision == '1']]></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>7922483125a225c89e830a6002528772</step_uid>
+        <tas_uid>4906226515a225c315be814023768719</tas_uid>
+        <tri_uid>3662127415a2474e80297a6074059874</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition></st_condition>
+        <st_position>2</st_position>
+      </record>
+      <record>
+        <step_uid>7922483125a225c89e830a6002528772</step_uid>
+        <tas_uid>4906226515a225c315be814023768719</tas_uid>
+        <tri_uid>4255713825a2054918e83a2077043083</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+    </table>
+    <table name="dbconnections">
+      <record>
+        <dbs_uid>5415979165a136b41c15534004826856</dbs_uid>
+        <pro_uid>6177860225a114969622452016803288</pro_uid>
+        <dbs_type>mysql</dbs_type>
+        <dbs_server>127.0.0.1</dbs_server>
+        <dbs_database_name>wf_workflow</dbs_database_name>
+        <dbs_username>root</dbs_username>
+        <dbs_password>6ebV0w_2NnV3ujj3w</dbs_password>
+        <dbs_port>3306</dbs_port>
+        <dbs_encode>utf8</dbs_encode>
+        <dbs_connection_type>NORMAL</dbs_connection_type>
+        <dbs_tns></dbs_tns>
+        <dbs_description></dbs_description>
+      </record>
+    </table>
+    <table name="reportTables"/>
+    <table name="reportTablesVars"/>
+    <table name="stepSupervisor"/>
+    <table name="objectPermissions"/>
+    <table name="subProcess"/>
+    <table name="caseTracker"/>
+    <table name="caseTrackerObject"/>
+    <table name="stage"/>
+    <table name="fieldCondition"/>
+    <table name="event"/>
+    <table name="caseScheduler"/>
+    <table name="processCategory"/>
+    <table name="taskExtraProperties">
+      <record>
+        <cfg_uid>TAS_EXTRA_PROPERTIES</cfg_uid>
+        <obj_uid>4450023645a114993ebedd4071435140</obj_uid>
+        <cfg_value><![CDATA[a:2:{s:20:"TAS_DEF_MESSAGE_TYPE";s:4:"text";s:24:"TAS_DEF_MESSAGE_TEMPLATE";s:18:"alert_message.html";}]]></cfg_value>
+        <pro_uid></pro_uid>
+        <usr_uid></usr_uid>
+        <app_uid></app_uid>
+      </record>
+    </table>
+    <table name="processUser"/>
+    <table name="processVariables">
+      <record>
+        <var_uid>1357220495a114e74806385053914554</var_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <var_name>EmailId</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>1573563545a25a48c610e14071228720</var_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <var_name>statusFlag</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>3132543555a114ebd8885c9037874320</var_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <var_name>Decision</var_name>
+        <var_field_type>boolean</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>boolean</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[{"value":"1","label":"Yes"},{"value":"0","label":"No"}]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>3983101885a224d63ebd4d9096498522</var_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <var_name>txtstatus</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>4891989995a20529e4eff31056377425</var_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <var_name>DNS</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>5215008725a114e62ac31c2009286016</var_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <var_name>Date</var_name>
+        <var_field_type>datetime</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>datetime</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>7344143885a114e4c871f75016928106</var_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <var_name>Name</var_name>
+        <var_field_type>object</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>object</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>7623634375a114e7fc5d829020915246</var_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <var_name>DeptName</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>7650801595a223666bea8a5069100389</var_uid>
+        <prj_uid>6177860225a114969622452016803288</prj_uid>
+        <var_name>textFlag</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+    </table>
+    <table name="webEntry"/>
+    <table name="webEntryEvent"/>
+    <table name="messageType"/>
+    <table name="messageTypeVariable"/>
+    <table name="messageEventDefinition"/>
+    <table name="scriptTask"/>
+    <table name="timerEvent"/>
+    <table name="emailEvent"/>
+    <table name="filesManager">
+      <record>
+        <prf_uid>1080768585a25a70853cbd7002160856</prf_uid>
+        <pro_uid>6177860225a114969622452016803288</pro_uid>
+        <usr_uid>00000000000000000000000000000001</usr_uid>
+        <prf_update_usr_uid>00000000000000000000000000000001</prf_update_usr_uid>
+        <prf_path><![CDATA[/opt/processmaker/shared/sites/workflow/mailTemplates/6177860225a114969622452016803288/Notify2.html]]></prf_path>
+        <prf_type>file</prf_type>
+        <prf_editable>1</prf_editable>
+        <prf_create_date><![CDATA[2017-12-04 14:50:32]]></prf_create_date>
+        <prf_update_date><![CDATA[2017-12-05 01:21:24]]></prf_update_date>
+      </record>
+      <record>
+        <prf_uid>8652866715a246def8df2b4048277181</prf_uid>
+        <pro_uid>6177860225a114969622452016803288</pro_uid>
+        <usr_uid>00000000000000000000000000000001</usr_uid>
+        <prf_update_usr_uid>00000000000000000000000000000001</prf_update_usr_uid>
+        <prf_path><![CDATA[/opt/processmaker/shared/sites/workflow/mailTemplates/6177860225a114969622452016803288/NotifyRequester.html]]></prf_path>
+        <prf_type>file</prf_type>
+        <prf_editable>1</prf_editable>
+        <prf_create_date><![CDATA[2017-12-03 16:34:39]]></prf_create_date>
+        <prf_update_date><![CDATA[2017-12-05 04:41:33]]></prf_update_date>
+      </record>
+    </table>
+    <table name="abeConfiguration"/>
+    <table name="elementTask"/>
+  </definition>
+  <workflow-files>
+    <file target="dynaforms">
+      <file_name>Community Approval</file_name>
+      <file_path><![CDATA[6177860225a114969622452016803288/4853111765a114d2948bd96048793170.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjYxNzc4NjAyMjVhMTE0OTY5NjIyNDUyMDE2ODAzMjg4LzQ4NTMxMTE3NjVhMTE0ZDI5NDhiZDk2MDQ4NzkzMTcwIiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name>Request Status</file_name>
+      <file_path><![CDATA[6177860225a114969622452016803288/5167864965a224c70a75d52047056514.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjYxNzc4NjAyMjVhMTE0OTY5NjIyNDUyMDE2ODAzMjg4LzUxNjc4NjQ5NjVhMjI0YzcwYTc1ZDUyMDQ3MDU2NTE0IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name>Create Community Request</file_name>
+      <file_path><![CDATA[6177860225a114969622452016803288/5660518785a114b364a6277034068299.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjYxNzc4NjAyMjVhMTE0OTY5NjIyNDUyMDE2ODAzMjg4LzU2NjA1MTg3ODVhMTE0YjM2NGE2Mjc3MDM0MDY4Mjk5IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="templates">
+      <file_name>Notify2.html</file_name>
+      <file_path><![CDATA[6177860225a114969622452016803288/Notify2.html]]></file_path>
+      <file_content><![CDATA[PCFET0NUWVBFIGh0bWwgUFVCTElDICItLy9XM0MvL0RURCBYSFRNTCAxLjAgVHJhbnNpdGlvbmFsLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL1RSL3hodG1sMS9EVEQveGh0bWwxLXRyYW5zaXRpb25hbC5kdGQiPgo8aHRtbD4KPGhlYWQ+CjwvaGVhZD4KPGJvZHk+CjxwPjxicj5IaSBAI05hbWUsPC9wPjxwPllvdXIgY29tbXVuaXR5IHJlcXVlc3QgaGFzIGJlZW4gZGlzYXBwcm92ZWQgYnkgU21hcnRDaXR5IEFkbWluLiBQbGVhc2UgY29udGFjdCBhZG1pbiBmb3IgZGV0YWlsczxicj4gPGJyPjwvcD48cD48YnI+VGhhbmtzLDwvcD48cD5BZG1pbjwvcD4KPC9ib2R5Pgo8L2h0bWw+]]></file_content>
+    </file>
+    <file target="templates">
+      <file_name>NotifyRequester.html</file_name>
+      <file_path><![CDATA[6177860225a114969622452016803288/NotifyRequester.html]]></file_path>
+      <file_content><![CDATA[PCFET0NUWVBFIGh0bWwgUFVCTElDICItLy9XM0MvL0RURCBYSFRNTCAxLjAgVHJhbnNpdGlvbmFsLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL1RSL3hodG1sMS9EVEQveGh0bWwxLXRyYW5zaXRpb25hbC5kdGQiPgo8aHRtbD4KPGhlYWQ+CjwvaGVhZD4KPGJvZHk+CjxwPkhpIEAjTmFtZSw8L3A+CjxwPnlvdXIgY29tbXVuaXR5IHJlcXVlc3QgaGFzIGJlZW4gYXBwcm92ZWQuIFBsZWFzZSB1c2UgdGhlIGJlbG93IGxpbmsgdG8gbG9nIGluLjxiciAvPiA8YnIgLz5AQHR4dHN0YXR1czwvcD4KPHA+PGJyIC8+VGhhbmtzLDwvcD4KPHA+QWRtaW48L3A+CjwvYm9keT4KPC9odG1sPg==]]></file_content>
+    </file>
+  </workflow-files>
+</ProcessMaker-Project>
